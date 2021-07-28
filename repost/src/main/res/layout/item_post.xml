@@ -72,7 +72,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:padding="5dp"
-                app:srcCompat="@drawable/ic_round_delete_outline_24" />
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
 
         </RelativeLayout>
 

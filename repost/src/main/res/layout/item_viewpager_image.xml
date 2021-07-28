@@ -20,7 +20,7 @@
         android:layout_gravity="center"
         android:alpha="0.6"
         android:visibility="gone"
-        app:srcCompat="@drawable/ic_round_play_circle_filled_24" />
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
 
 
 </FrameLayout>
