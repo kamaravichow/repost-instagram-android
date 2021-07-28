@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Aravind Chowdary
+  -->
+
+<resources>
+    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="sub_logo_size">36dp</dimen>
+    <dimen name="toolbox_item_height">60dp</dimen>
+    <dimen name="toolbox_item_icon_size">32dp</dimen>
+    <dimen name="toolbox_item_text_size">16sp</dimen>
+    <dimen name="toobox_item_text_size">12sp</dimen>
+    <dimen name="settings_icon_size">24dp</dimen>
+    <dimen name="settings_item_padding">8dp</dimen>
+    <dimen name="attr_text_size">10sp</dimen>
+</resources>

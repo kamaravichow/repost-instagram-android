@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright (c) 2021. Aravind Chowdary
+  -->
+
+<resources>
+
+    <string name="toolbar_title_repost">Repost</string>
+    <string name="direction_open_insta">1. Open Instagram</string>
+    <string name="direction_click_menu">2. Click menu</string>
+    <string name="direction_share_to">3. Choose Share to...</string>
+    <string name="direction_choose_hiketop">4. Tap on HikeTop</string>
+
+
+
+    <string name="toolbar_title_profile_dp_downloader">HD Profile Picture Downloader</string>
+    <string name="button_get_profile_pic">Get profile picture</string>
+    <string name="text_username_hint">Username</string>
+</resources>
