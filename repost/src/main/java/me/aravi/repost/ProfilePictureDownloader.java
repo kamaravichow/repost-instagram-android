@@ -89,8 +89,8 @@ public class ProfilePictureDownloader extends AppCompatActivity {
                 boolean success = true;
                 String directory;
                 File storageDir;
-                directory = Environment.getExternalStorageDirectory() + "/HikeTop/";
-                storageDir = new File(directory + "/Profile Pictures/");
+                directory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/HikeTop/";
+                storageDir = new File(directory + "/DP/");
                 if (!storageDir.exists()) {
                     success = storageDir.mkdirs();
                 }
