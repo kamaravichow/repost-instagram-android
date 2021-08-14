@@ -12,6 +12,8 @@ import android.text.TextUtils;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
+import me.aravi.repost.R;
+
 
 public class NotificationUtils {
     private static String TAG = NotificationUtils.class.getSimpleName();
@@ -46,7 +48,7 @@ public class NotificationUtils {
                         .setTicker(title)
                         .setStyle(bigTextStyle)
                         .setContentIntent(pendingIntent)
-//                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setSmallIcon(R.drawable.ic_baseline_refresh_24)
                         .build();
             } else {
                 notification = mBuilder
@@ -57,7 +59,7 @@ public class NotificationUtils {
                         .setContentText(message)
                         .setTicker(title)
                         .setContentIntent(pendingIntent)
-//                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setSmallIcon(R.drawable.ic_baseline_refresh_24)
                         .build();
             }
         } else {
@@ -68,7 +70,7 @@ public class NotificationUtils {
                         .setStyle(bigTextStyle)
                         .setContentText(message)
                         .setTicker(title)
-//                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setSmallIcon(R.drawable.ic_baseline_refresh_24)
                         .build();
             } else {
                 notification = mBuilder
@@ -78,7 +80,7 @@ public class NotificationUtils {
                         .setStyle(bigTextStyle)
                         .setTicker(title)
                         .setGroup(groupId)
-//                        .setSmallIcon(R.mipmap.ic_launcher_round)
+                        .setSmallIcon(R.drawable.ic_baseline_refresh_24)
                         .build();
             }
         }
