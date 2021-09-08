@@ -4,8 +4,11 @@
 
 package me.aravi.repost.model;
 
+import androidx.annotation.Keep;
+
 import java.util.ArrayList;
 
+@Keep
 public class Repost {
 
     private int id;
